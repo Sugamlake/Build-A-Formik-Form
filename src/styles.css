@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+.field {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.submit-btn {
+  align-self: flex-end;
+  width: 80px;
+}
+.emailError .pswError {
+  color: red;
+  align-self: flex-end;
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 10px;
+  line-height: 3px;
+}
+.heading {
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: #dda;
+  padding: 10px;
+  border-radius: 5px;
+}
+
